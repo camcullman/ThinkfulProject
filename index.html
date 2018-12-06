@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WhereShouldISki</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--added this link to my new CSS sheet-->
+    <link rel="stylesheet" href="Whereshouldiski.css">
+  </head>
+  <body>
+  
+  <div class="container">
+    
+  
+    <div class='homepage-box' id="homepage-box-id">
+      <header>
+       Where Should I Ski this weekend?
+      </header>
+      <h2>Use your current location and snowfall reports
+        to determine the best mountain to head to</h2>
+      <button id="find-mountains" class="search-button">Find Mountains</button>
+<!--           <p>Already know a resort you want to see the snow report for?</p>
+       To do: make another request to get the snowfall result for a specific station
+      <form id="form">
+        <label>
+          <input id="query" class="search-box" value='' type="text"/>
+          <button id="search-button" class="search-button">Get Snow Report</button>
+        </label>
+      </form>
+    
+    
+      <select id="mountainselector">
+          <option>Select your favorite mountain</option>
+      </select>
+-->
+    <!--create hidden html data here -->
+    
+    </div>
+
+
+    
+
+
+    <!-- To do: update the amount of time to match how long it usually takes -->
+    <div class='searching-box hide' id="searching-box">
+      <header>
+       Finding Powder Pockets...
+      </header>
+      <div class='loading-bar' style="width:0%" id="loading-bar"></div>
+      <canvas id="canvas"></canvas>
+    </div>
+    
+    <div class='results-box hide' id="results-box">
+      <header>
+       Where you should ski this weekend
+      </header>
+      <table class="results-chart" id = "resultsChart"> 
+
+        <tr> <th>Powder Score</th> <th>Resort</th> <th>Powder</th> <th>Drive</th> </tr> 
+
+      </table>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="find-mountains.js"></script>
+    <script src="Search_animation.js"></script>
+  </body>
+</html>
+
+
