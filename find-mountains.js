@@ -21,13 +21,13 @@ var mountains = [
 { 
 	PowderScore: 5,
 	areaName: "Stratton",
-	hours: 4.25,
+	hours: 4,
 	zipCode: "05155",
 },
 { 
 	PowderScore: 3,
 	areaName: "Okemo",
-	hours: 4.33,
+	hours: 4.25,
 	zipCode: "05149",
 },
 { 
@@ -36,11 +36,88 @@ var mountains = [
 	hours: 5.5,
 	zipCode: "05672",
 },
+
 { 
 	PowderScore: 3,
-	areaName: "Sugarbushtest",
+	areaName: "Sugarbush",
 	hours: 5.5,
 	zipCode: "05674",
+},
+
+{ 
+	PowderScore: 6,
+	areaName: "Sugarloaf",
+	hours: 7.33,
+	zipCode: "04947",
+},
+
+{ 
+	PowderScore: 6,
+	areaName: "Mad River Glen",
+	hours: 5.33,
+	zipCode: "05673",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Attitash",
+	hours: 6,
+	zipCode: "03812",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Smuggler's Notch",
+	hours: 6,
+	zipCode: "05464",
+},
+
+{ 
+	PowderScore: 6,
+	areaName: "Wildcat",
+	hours: 6.25,
+	zipCode: "03581",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Cannon",
+	hours: 5.5,
+	zipCode: "03580",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Whiteface",
+	hours: 4.66,
+	zipCode: "12997",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Sunday River",
+	hours: 4.5,
+	zipCode: "04261",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Bretton Woods",
+	hours: 5.75,
+	zipCode: "03575",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Loon",
+	hours: 5.33,
+	zipCode: "03251",
+},
+
+{ 
+	PowderScore: 6,
+	areaName: "Mount Snow",
+	hours: 3.85,
+	zipCode: "05356",
+},
+{ 
+	PowderScore: 6,
+	areaName: "Gore",
+	hours: 4,
+	zipCode: "12853",
 }
 ]
 
@@ -111,7 +188,12 @@ function renderData(PowderScore, areaName, snowfall, hours) {
 
 function showresults() {
 	mountains.forEach(function(element, index) {
-		renderData(mountains[index].PowderScore, mountains[index].areaName, mountains[index].snowfall, mountains[index].hours)
+		if (index <= 4) {
+			renderData(mountains[index].PowderScore, mountains[index].areaName, mountains[index].snowfall, mountains[index].hours)
+		} else {
+			return;
+		}
+
 	})
 	$("#searching-box").addClass("hide")
 	$("#results-box").removeClass("hide")
@@ -121,4 +203,17 @@ function showresults() {
 //next - before show results, must create the html dynamically to put that html on the screen. Then when it's there, show the results. 
 
 
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}

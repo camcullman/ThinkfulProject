@@ -1,20 +1,20 @@
-WHERE SHOULD I SKI?
+Where's the Powder?
 
-This site was created with the intention of supporting the ski community by making it easier to get on the mountain. To develop and refine the app's design, primary research in the form of interviews and surveys and secondary research of other skiing resources was conducted. 
+This site was created to help get you on the ski mountain. To develop and refine the app's design, primary research in the form of interviews and surveys, as well as secondary research of other skiing resources, was conducted. 
 
-This research showed that one of the biggest hurdles skiers and snowboarders face is determining where to ski. They experience information overload as many ski sites/guides and resorts try to tell the users the best places to go. As more ski resorts pop up and old one keep adding unique amenities, it feels like there are hundreds of mountains to choose from and even more factors to take into account when choosing between them. With skiers already short on time because their planning a last minute trip to take advantage of upcoming snow, simplifying this choice is key. 
+During this research, we learned that one of the biggest hurdles skiers and snowboarders face is simply choosing the right place to ski. An online search of where to ski causes a faceful of information overload - hundreds of sites giving different recomendations based on dozens of factors. With skiers already short on time because they are planning a last minute trip, simplifying this choice is key. 
 
-This is why "Where should I ski" was created - to simplify the decision about where to ski to the most important factors. How much snow will it have and how far away is it. 
+This is why "WheresThePowder" was created - to simplify the decision about where to ski to the most important factors. How much snow will it have and how far a drive is it.
 
-The result is "Where Should I Ski" - an app built to fit the needs of skiers planning a last minute ski trip to take advantage of fresh powder. 
+In order to give top recomendations and stay unbiased (we all have a favorite ski spot), the app calculates a very simple formula for each mountain: expected snowfall for the next 3 days / average drive time. It then spits out the top 5 spots with the most snow for the shortest drive. 
 
-To calculate the distance, the app uses Google Maps API. To calculate snowfall it uses data from www.myweather2.com API. 
+To calculate the distance, the app currently assumes skiers are in the New York City area and uses average drive times to each location. To calculate snowfall, it uses data from www.worldweatheronline.com's Ski weather API - which allows us to pull expected snowfall for the next 3 days - the ideal time before deciding to go on a last minute ski trip late in the work week. 
 
-You'll also see the app includes resort search fonctionality. Primary research showed that many skiers already have a resort or two in mind when choosing where to ski. Some have a house they normally ski at and their question is whether it's worth it to make the trip to that specific resort. So we added this functionality. 
+This is currently a beta version of the site. In the future, we're exploring adding the ability to seach only for your favorite mountain. Primary research showed that many skiers already have a resort or two in mind when choosing where to ski. Some have a house they normally ski at and their question is whether it's worth it to make the trip to that specific resort.  
 
-If you have any feedback on the site, positive or negative, please feel free to send it to _________. We're always looking to make the site better and easier to use.
+If you have any feedback on the site, positive or negative, please feel free to send it to me at cameron.cullman@gmail.com. I'm always looking to make the site better and easier to use.
 
-We hope you enjoy the app and that it gets you on the mountain more often and easily. And maybe it will even help you discover a new favorite spot to ski you may otherwise never considered.
+We hope you enjoy the app and that it gets you on the mountain more often and easily. And maybe it will even help you discover a new favorite spot to ski.
 
 Happy Skiing,
 Cam

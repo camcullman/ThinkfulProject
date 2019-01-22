@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>WhereShouldISki</title>
+    <title>WhereShouldYouSki</title>
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!--added this link to my new CSS sheet-->
@@ -14,12 +14,17 @@
   
     <div class='homepage-box' id="homepage-box-id">
       <header>
-       Where Should I Ski this weekend?
+       Where should you ski?
       </header>
-      <h2>Use your current location and snowfall reports
-        to determine the best mountain to head to</h2>
+      <h2>Find more powder, drive less far</h2>
       <button id="find-mountains" class="search-button">Find Mountains</button>
-<!--           <p>Already know a resort you want to see the snow report for?</p>
+
+
+
+<!--          For future versions - allowing people to search for their favorite mounting in a drop down -->
+
+
+<!-- <p>Already know a resort you want to see the snow report for?</p>
        To do: make another request to get the snowfall result for a specific station
       <form id="form">
         <label>
@@ -33,18 +38,30 @@
           <option>Select your favorite mountain</option>
       </select>
 -->
-    <!--create hidden html data here -->
+
     
+<button class="collapsible">About</button>
+<div class="content">
+   <p>To help you choose where to ski this weekend, this app calculates the top 5 options with the most forecasted powder for the least amount of drive time. When you click "find mountains" the app calcualtes a "powder score" (snowfall divided by drive-time) for each of the largest 19 mountains in the Northeast . Drive time is determined by average drive time from NYC to the mountain. Forecasted snowfall shows snowfall expected in the next 3 days (so you can plan for the weekend). </p>
+
+
+  <p>In future versions we hope to include mountains outside the northeast, use your current location to calculate drive time, and add average liftline wait times. </p>
+
+  <p>Powered by <a href="https://www.worldweatheronline.com/" title="Weather API">World Weather Online</a></p>
+
+  <p>Happy skiing! </p>
+</div>
+
     </div>
 
 
     
 
 
-    <!-- To do: update the amount of time to match how long it usually takes -->
+    <!-- To do in future versions - updating the amount of time to match how long it usually takes -->
     <div class='searching-box hide' id="searching-box">
       <header>
-       Finding Powder Pockets...
+       Scoping out the snow...
       </header>
       <div class='loading-bar' style="width:0%" id="loading-bar"></div>
       <canvas id="canvas"></canvas>
