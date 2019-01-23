@@ -79,7 +79,7 @@ canvas {
 
 .results-chart {
 	width: 100%;
-
+	padding-top: 15px;
 }
 
 
@@ -248,6 +248,68 @@ p {
 		width: 20%;
 		min-height: 320px;
 	}
+
+
+	.homepage-box {
+		border-radius: 25px;
+		margin: 100px auto;
+		background-color: white;
+    	/* changed with from 500 to 330 px */
+    	width: 625px;
+    	height: 190px;
+    	padding: 10px;
+    	border: 1px solid blue;
+    
+	}
+
+	.searching-box {
+		border-radius: 25px;
+		margin: 100px auto;
+		background-color: white;
+    	/* changed width from 500 to 330px*/
+    	width: 625px;
+    	height: 400px;
+    	padding: 10px;
+    	border: 1px solid blue;
+	}
+
+
+	.results-box {
+		border-radius: 25px;
+		margin: 100px auto;
+		background-color: white;
+   	 	/* changed width from 500 to 330px */
+   	 	width: 625px;
+    	height: 300px;
+    	padding: 10px;
+    	border: 1px solid blue;
+	}
+	
+	header {
+		font-size: 35px;
+		/* changed font size from 40 to 30px */
+		padding-top: 20px;
+		padding-bottom: 0px;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		font-weight: bold;
+
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin: 25px;
+		background: url("https://ak5.picdn.net/shutterstock/videos/3178855/thumb/1.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		/* added this 12px font size */
+		font-size: 16px;
+	}
+
 }
 
 
