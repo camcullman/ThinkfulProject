@@ -175,10 +175,12 @@ p {
 
 .search-box,
 .search-button {
-	width: 100%;
+	width: 150px;
 	margin: 3px 0;
 	height: 30px;
 }
+
+
 
 /* Small landscape orientation devices (tablets, 768px and up) */
 @media (min-width: 640px) {
@@ -198,12 +200,12 @@ p {
 
 	.search-box,
 	.search-button {
-		width: 400px;
+		width: 150px;
 		height: 30px;
 		margin: 0;
 	}
 	.search-button {
-		width: 80px;
+		width: 150px;
 		margin-bottom: 30px;
 	}
 }
