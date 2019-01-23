@@ -37,7 +37,7 @@ main {
 	background-color: white;
     /* changed width from 500 to 330px*/
     width: 330px;
-    height: 350px;
+    height: 290px;
     padding: 10px;
     border: 1px solid blue;
 }
@@ -72,7 +72,7 @@ canvas {
 	background-color: white;
     /* changed width from 500 to 330px */
     width: 330px;
-    height: 350px;
+    height: 275px;
     padding: 10px;
     border: 1px solid blue;
 }
@@ -81,8 +81,6 @@ canvas {
 	width: 100%;
 	padding-top: 15px;
 }
-
-
 
 
 header {
@@ -227,15 +225,77 @@ p {
 	body {
 		background: url("https://ak5.picdn.net/shutterstock/videos/3178855/thumb/1.jpg");
 		background-size: cover;
+		}
+		h1 {
+			font-size: 19px;
+		}
+		.video-item {
+			width: 30%;
+			min-height: 230px;
+		}
+
+
+
+		.homepage-box {
+		border-radius: 25px;
+		margin: 100px auto;
+		background-color: white;
+    	/* changed with from 500 to 330 px */
+    	width: 625px;
+    	height: 190px;
+    	padding: 10px;
+    	border: 1px solid blue;
+		}
+
+	.searching-box {
+		border-radius: 25px;
+		margin: 100px auto;
+		background-color: white;
+    	/* changed width from 500 to 330px*/
+    	width: 625px;
+    	height: 400px;
+    	padding: 10px;
+    	border: 1px solid blue;
+		}
+
+
+	.results-box {
+		border-radius: 25px;
+		margin: 100px auto;
+		background-color: white;
+   	 	/* changed width from 500 to 330px */
+   	 	width: 625px;
+    	height: 250px;
+    	padding: 10px;
+    	border: 1px solid blue;
+		}
+	
+	header {
+		font-size: 35px;
+		/* changed font size from 40 to 30px */
+		padding-top: 20px;
+		padding-bottom: 0px;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		font-weight: bold;
+		}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin: 25px;
+		background: url("https://ak5.picdn.net/shutterstock/videos/3178855/thumb/1.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		/* added this 12px font size */
+		font-size: 16px;
 	}
-	h1 {
-		font-size: 19px;
-	}
-	.video-item {
-		width: 30%;
-		min-height: 230px;
-	}
+
 }
+
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -282,7 +342,7 @@ p {
 		background-color: white;
    	 	/* changed width from 500 to 330px */
    	 	width: 625px;
-    	height: 300px;
+    	height: 250px;
     	padding: 10px;
     	border: 1px solid blue;
 	}
