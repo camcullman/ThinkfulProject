@@ -23,7 +23,8 @@ main {
 	border-radius: 25px;
 	margin: 100px auto;
 	background-color: white;
-    width: 500px;
+    /* changed with from 500 to 330 px */
+    width: 330px;
     height: 190px;
     padding: 10px;
     border: 1px solid blue;
@@ -34,7 +35,8 @@ main {
 	border-radius: 25px;
 	margin: 100px auto;
 	background-color: white;
-    width: 500px;
+    /* changed width from 500 to 330px*/
+    width: 330px;
     height: 350px;
     padding: 10px;
     border: 1px solid blue;
@@ -68,7 +70,8 @@ canvas {
 	border-radius: 25px;
 	margin: 100px auto;
 	background-color: white;
-    width: 500px;
+    /* changed width from 500 to 330px */
+    width: 330px;
     height: 350px;
     padding: 10px;
     border: 1px solid blue;
@@ -83,7 +86,8 @@ canvas {
 
 
 header {
-	font-size: 40px;
+	font-size: 30px;
+	/* changed font size from 40 to 30px */
 	padding-top: 20px;
 	padding-bottom: 0px;
 	font-family: 'Roboto', sans-serif;
@@ -102,6 +106,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	/* added this 12px font size */
+	font-size: 12px;
 }
 
 button {
