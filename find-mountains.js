@@ -1,4 +1,4 @@
-//mountains
+// List of the best mountains in the northeast
 var mountains = [
 { 
 	PowderScore: 6,
@@ -141,12 +141,7 @@ $("#find-mountains").on("click", function() {
 	});	
 })
 
-//Next - repeat line 6 for 5 stations where I can ski
-//Must save area name and snowfall in an array of results (can call it mountains)
-
-//must know how to create an array in js, push array. 
-
-//each one is an object with 2 properties, areaName and snowfall
+//Data request
 
 function requestData(zipCode, index) {
 	var API_URL = 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=ee3592817e3e41a3b4932308182910&q=' + zipCode + '&format=json&includeLocation=yes'
@@ -166,7 +161,8 @@ function requestData(zipCode, index) {
 
 var barWidth = 0;
 
-//Next step: Sort the mountains. Will use a counter. After hit 5 counter will be done. 
+//Progress bar loading 
+
 function incrementProgressBar() {
 	console.log(100/mountains.length, barWidth)
 	barWidth = barWidth + (100/mountains.length);
@@ -181,10 +177,13 @@ function incrementProgressBar() {
 	}
 }
 
+//Rendering the data into the chart
+
 function renderData(PowderScore, areaName, snowfall, hours) {
 	$("#resultsChart").append('<tr> <td>' + PowderScore + '</td> <td>' + areaName + '</td> <td>' + snowfall  + ' "</td> <td>' + hours + '</td> </tr>')
 }
 
+//Showing the results
 
 function showresults() {
 	mountains.forEach(function(element, index) {
@@ -200,8 +199,7 @@ function showresults() {
 }
 
 
-//next - before show results, must create the html dynamically to put that html on the screen. Then when it's there, show the results. 
-
+//Collapsible Javascript section
 
 var coll = document.getElementsByClassName("collapsible");
 var i;

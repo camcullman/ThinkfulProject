@@ -70,7 +70,6 @@ canvas {
 	border-radius: 25px;
 	margin: 100px auto;
 	background-color: white;
-    /* changed width from 500 to 330px */
     width: 330px;
     height: 275px;
     padding: 10px;
@@ -85,7 +84,6 @@ canvas {
 
 header {
 	font-size: 30px;
-	/* changed font size from 40 to 30px */
 	padding-top: 20px;
 	padding-bottom: 0px;
 	font-family: 'Roboto', sans-serif;
@@ -104,7 +102,6 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	/* added this 12px font size */
 	font-size: 12px;
 }
 
@@ -153,8 +150,6 @@ a:link {
 	text-decoration: none;
 }
 a:visited { color: purple; }
-
-/* Background  (Tried a "paralax" treatment to no success) */
 
 h1 {
 	font-size: 13px;
@@ -240,7 +235,6 @@ p {
 		border-radius: 25px;
 		margin: 100px auto;
 		background-color: white;
-    	/* changed with from 500 to 330 px */
     	width: 625px;
     	height: 190px;
     	padding: 10px;
@@ -251,7 +245,6 @@ p {
 		border-radius: 25px;
 		margin: 100px auto;
 		background-color: white;
-    	/* changed width from 500 to 330px*/
     	width: 625px;
     	height: 400px;
     	padding: 10px;
@@ -263,7 +256,6 @@ p {
 		border-radius: 25px;
 		margin: 100px auto;
 		background-color: white;
-   	 	/* changed width from 500 to 330px */
    	 	width: 625px;
     	height: 250px;
     	padding: 10px;
@@ -272,7 +264,6 @@ p {
 	
 	header {
 		font-size: 35px;
-		/* changed font size from 40 to 30px */
 		padding-top: 20px;
 		padding-bottom: 0px;
 		font-family: 'Roboto', sans-serif;
@@ -290,7 +281,6 @@ p {
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		/* added this 12px font size */
 		font-size: 16px;
 	}
 
@@ -316,7 +306,6 @@ p {
 		border-radius: 25px;
 		margin: 100px auto;
 		background-color: white;
-    	/* changed with from 500 to 330 px */
     	width: 625px;
     	height: 190px;
     	padding: 10px;
@@ -328,7 +317,6 @@ p {
 		border-radius: 25px;
 		margin: 100px auto;
 		background-color: white;
-    	/* changed width from 500 to 330px*/
     	width: 625px;
     	height: 400px;
     	padding: 10px;
@@ -340,7 +328,6 @@ p {
 		border-radius: 25px;
 		margin: 100px auto;
 		background-color: white;
-   	 	/* changed width from 500 to 330px */
    	 	width: 625px;
     	height: 250px;
     	padding: 10px;
@@ -349,7 +336,6 @@ p {
 	
 	header {
 		font-size: 35px;
-		/* changed font size from 40 to 30px */
 		padding-top: 20px;
 		padding-bottom: 0px;
 		font-family: 'Roboto', sans-serif;
@@ -368,7 +354,6 @@ p {
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		/* added this 12px font size */
 		font-size: 16px;
 	}
 
